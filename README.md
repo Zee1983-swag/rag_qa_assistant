@@ -1,1 +1,0 @@
-# rag_qa_assistant
