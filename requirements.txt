@@ -1,0 +1,13 @@
+﻿# 项目运行依赖
+chromadb
+openai>=1.0.0
+python-dotenv
+pandas
+streamlit
+
+# 检索优化依赖
+rank-bm25
+jieba
+
+# 下一阶段：结构化 LLM 输出校验
+pydantic
