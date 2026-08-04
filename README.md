@@ -198,11 +198,3 @@ python scripts/05_batch_process.py
 - 在线验收需要有效 API Key；后续将以独立评测集、人工复核反馈、引用有效率和拒答准确率评估真实效果。
 - 计划补充 JSON 自动修复重试、trace_id、知识库版本、reranker 和人工反馈闭环。
 
-## 文档
-
-- [项目深挖网页](docs/project-deep-dive.html)：面向 RAG 初学者的架构、代码、术语与面试讲解。
-- [升级教程](docs/UPGRADE_TUTORIAL.md)：从基础 RAG 到 V2 安全链路的改进记录。
-
-## 简历表述参考
-
-> 构建企业交易风险复核 RAG 辅助系统，采用向量检索、BM25 与 RRF 融合召回制度证据；通过领域闸门、Pydantic Schema 与证据 ID 程序化回填降低生成幻觉风险。实现 Chroma 增量索引、Streamlit 可视化及 41 项离线回归测试，所有结果强制人工复核。
